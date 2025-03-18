@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PARTH</title>
+</head>
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+</style>
+<style>
+   *{
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  
+}
+h2{
+  color: indianred;
+  border: 3px solid green;
+  border-radius: 7px;
+  background-color: aquamarine;
+  text-align: center;
+  }
+  #up{
+  color: violet;
+  text-align: center;
+  background-color: yellow;
+  border: 3px solid violet;
+  border-radius: 10px;
+  }
+  input[type="text"]{
+  padding: 15px;
+  margin: 15px;
+  width: 70%;
+  border: 2px solid green;
+  border-radius: 7px;
+  }
+  input[type="number"]{
+  padding: 15px;
+  margin: 15px;
+  width: 37%;
+  border: 2px solid green;
+  border-radius: 7px;
+  }
+  input[type="date"]{
+    padding: 10px;
+    margin: 10px;
+    width: 35%;
+    border: 2px solid green;
+    border-radius: 7px;
+  }
+  img {
+    padding: 19px;
+    margin: 110px;
+    border:2px solid red;
+  }
+  footer{
+    color: sienna;
+    border: 2px solid brown;
+    text-align: center;
+    font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .end{
+    color: darkcyan;
+    border: 2px solid navajowhite;
+    
+  }
+  .endd{
+  color: darkcyan;
+  border: 2px solid blue;
+  border-radius: 9px
+  }
+  textarea{
+    padding: 10px;
+    width: 70%;
+    border: 2px solid goldenrod;
+    border-radius: 11px
+  }
+  input[type="sumbit"]{
+    border: 2px solid deepskyblue;
+  }
+  form{
+    color: blue;
+  }
+  a{
+    overflow: none;
+  }
+  ul li{
+    color: yellow;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+  }
+  .navbar ul{
+    overflow: auto;
+  }
+  .navbar li a{
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .navbar{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 13px
+  }
+  a:hover{
+    background-color: red;
+    
+  }
+  #AN{
+    width: 500px;
+    margin: auto;
+    text-decoration: none;
+  }
+  a:visited{
+    background-color: darkorange
+  }
+  h3{
+    float: center;
+    text-align: center;
+    color: darkgrey;
+  }
+  ::placeholder{
+    color: firebrick;
+  }
+  #con{
+    color: fuchsia;
+    border: 2px solid darkviolet;
+    border-radius: 7px
+  }
+</style>
+</head>
+<body bgcolor="yellow">
+  <header>
+    <nav>
+  <div class="navbar">
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT PARTH</a></li>
+      <li><a href="#">CONTACT ME</a></li>
+    </ul>
+  </div>
+  </nav>
+  </header>
+  <h2>HI EVERY ONE HERE THIS IS PARTH OWNER OF THIS WEBSITE</h2>
+  <P id="up">CHECK AND SUMBIT YOUR DETAILS HERE</P>
+  <div>
+    <div>
+  <form action="backhend.js">
+  <label for="myName">NAME:</label>
+  <input type="text" placeholder="ENTER YOUR NAME" name="myName" id="myName">
+  </div>
+  <div>
+  <label for="role">YOUR ROLE:</label>
+  <input type="text" placeholder="ENTER YOUR ROLE" name="myRole" id="role">
+  </div>
+  <div>
+  <label for="age">YOUR AGE:</label>
+  <input type="number" placeholder="ENTER YOUR AGE" name="myAge" id="age">
+  </div>
+  <div>
+    <label for="date">TODAY'S DATE</label>
+    <input type="date" placeholder="ENTER TODAY'S DATE " name="todayDate" id="date" value="ENTER THE DATE OF TODAY" />
+  </div>
+  <label for="check">DO YOU KNOW PARTH/VASU </label>
+<input type="checkbox" checked name="eligeblity" id="check">
+<br>
+<br>
+<div>
+YOUR GENDER &nbsp; MALE:<input type="radio" name="myGender" id="gender">
+  <label for="GEender"></label>
+  FEMALE:<input type="radio" name="myGender" id="GEender">
+  </div>
+  <br>
+  <div>
+    
+   YOUR RELATION WITH PARTH/VASU &nbsp;<select name="myRelation" id="rrelation" class="hkg">
+     <div>
+     <br>
+     <div>
+      <option value="bhai">BHAI</option>
+      <option value="dost">DOST</option>
+      <option value="TYPE CUSTOM">TYPE CUSTOM</option>
+     </div>
+    </select>
+  </div>
+<div>
+  <br>
+  <label for="relation"> TYPE CUSTOM RELATION HERE</label>
+  <input type="text" placeholder="ENTER YOUR RELATION" name="myEmail" id="relation"
+</div>
+<br>
+<div>
+  <br>
+  PLEASE GIVE YOUR FEEDBACK HERE<textarea name="userFeedBack" id="Feedback" cols="30" rows="10" placeholder="PLEASE CONTACT TO VASU/PARTH IF THERE IS ANY PROBLEM IN WEBSITE"></textarea>
+  </div>
+   <input type="submit" name="SUMBIT.PHP" id="SUMBIT" value="SUMBIT NOW" />
+   <input type="reset" name="reset data" id="RESET" value="RESET NOW" />
+  </form>
+  <p id="down">IF YOU ARE WATCHING OVER THIS WEB KINDLY INFORM OR CONTACT VASU/PARTH</p>
+  <img src="/images/VASU.jpg" height="50%" width="50%" alt="KINDLY CHECK YOUR INTERNET OR RELOD WEBSITE">
+  <br>
+  <footer>THIS IS PARTH 👆</footer>
+  <br>
+  <div>
+  <p id="con">CONTACT ME ANYWHERE IF YOU KNOW ME OR WATCHING OVER THIS WEB</p> 
+  </div>
+  <br>
+  <div>
+  <a href="INSAT.HTML" id="AN">ANOTHER CREATION</a>
+  </div>
+  <br>
+  <footer class="end">THIS IS ALSO DESIGENED BY ME BUT IN RAW FORM</footer>
+  <br/>
+  <h3>LISTEN TO MY FAVORITE SONG</h3>
+  <div>
+     <audio src="/audios /410.mp3" controls=""></audio>
+  </div>
+  <!--enter java here-->
+  <script src="xlJAVA.js"></script>
+  
+
+<body>
+  
+</body>
+
+</html>
